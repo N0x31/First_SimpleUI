@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fr.wcs.appsimple.AppSimple"
+    android:baselineAligned="false"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:background="@android:color/holo_orange_light"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:hint="@string/textSimple"
+        android:inputType="text"
+        android:text=" Welcome to the Wild Code School !"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="25dp" />
+
+    <CheckBox
+        android:id="@+id/Check"
+        android:layout_width="242dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:onClick="onCheckboxClicked"
+        android:text="Oui ! Je souhaite devenir un wilder."
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="98dp" />
+
+    <EditText
+        android:id="@+id/nom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/nom"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="160dp" />
+
+    <EditText
+        android:id="@+id/prenom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="@string/prenom"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="220dp" />
+
+    <Button
+        android:id="@+id/valider"
+        android:layout_width="90dp"
+        android:layout_height="47dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/holo_orange_light"
+        android:text="Valider"
+        android:textColor="@android:color/black"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="302dp" />
+
+    <TextView
+        android:id="@+id/nomBravo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="24sp" />
+
+</LinearLayout>

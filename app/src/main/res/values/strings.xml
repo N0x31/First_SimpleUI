@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Quête Simple UI</string>
+    <string name="textSimple">Welcome</string>
+    <string name="nom">Nom</string>
+    <string name="prenom">Prénom</string>
+    <string name="toast">Message</string>
+</resources>
